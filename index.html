@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="script.js" defer></script>
+    <title>Library</title>
+</head>
+
+<body>
+    <div id="libraryTitle">Library</div>
+    <div id="addButton">Add New Book</div>
+    <div id="formContainer">
+        <form action="script.js">
+            <label for="bookTitle">Book Title</label><br>
+            <input type="text" id="bookTitle" name="bookTitle" required><br>
+            <label for="author">Author</label><br>
+            <input type="text" id="author" name="author" required><br>
+            <label for="pages">How many pages long is the book?</label> <br>
+            <input type="text" id="pages" name="pages" required><br>
+            <p>Have you read the book?</p>
+            <input type="radio" id="yes" name="Read" value="yes">
+            <label for="yes">Yes</label><br>
+            <input class="inline-radio" type="radio" id="no" name="Read" value="no">
+            <label class="inline-radio" for="no">No</label>
+            <p>Would you recommend this book?</p>
+            <input type="radio" id="yesRecommend" name="Recommend" value="yesRecommend">
+            <label for="yesRecommend">Yes</label><br>
+            <input class="inline-radio" type="radio" id="notRecommend" name="Recommend" value="notRecommend">
+            <label class="inline-radio" for="notRecommend">No</label><br>
+            <input type="button" value="Submit" id="submit">
+            <input type="button" value="Close" id="cancelButton">
+        </form>
+    </div>
+    <div id="libraryContainer">
+        <div>Your Book Collection:</div>
+
+
+    </div>
+
+
+
+</body>
+
+</html>
