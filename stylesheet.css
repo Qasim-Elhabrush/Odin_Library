@@ -1,8 +1,10 @@
 body {
     margin: 0;
+    background-color: hsl(60, 20%, 60%);
 }
 
 #libraryTitle {
+    margin-left: 25px;
     font-size: 80px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(130, 69, 69);
@@ -23,14 +25,14 @@ body {
 #formContainer {
     display: none;
     margin: 0 auto;
-    background-color: hsl(33, 78%, 91%);
+    background-color: hsl(33, 38%, 80%);
     font-size: large;
     font-family: 'Courier New', Courier, monospace;
     align-content: center;
     width: 350px;
     height: 400px;
     text-align: center;
-    border-color: hsl(33, 78%, 87%);
+    border-color: hsl(33, 18%, 60%);
     border-style: solid;
     border-width: 3px;
     border-radius: 20px;
@@ -43,12 +45,55 @@ body {
 }
 
 #libraryContainer {
-    height: 800px;
-    width: max;
+    width: 100%;
+    height: 100vh;
     background-image: repeating-linear-gradient(to top right, hsl(32, 17%, 60%), hsla(32, 79%, 87%, 0.248));
     justify-content: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    transform: translate(0, 100px);
+    top: 300px;
+    bottom: 0px;
+    position: absolute;
+}
+
+#collection {
+    margin-left: 25px;
+    margin-top: 25px;
+    color: rgb(130, 69, 69);
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#bookContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.book {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 2.5em;
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(130, 69, 69);
+    width: 300px;
+    height: 400px;
+    background-color: hsl(54, 34%, 63%);
+    margin-right: 50px;
+    margin-left: 25px;
+    border-style: solid;
+    border-left-style: double;
+    border-color: hsl(36, 50%, 75%);
+    border-width: 5px;
+    border-left-width: 10px;
+    border-top-width: 10px;
+    border-top-style: double;
+    border-radius: 15px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
 }
