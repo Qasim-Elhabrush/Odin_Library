@@ -1,24 +1,25 @@
 body {
     margin: 0;
-    background-color: hsl(60, 20%, 60%);
+    background-color: hsl(242, 67%, 10%);
 }
 
 #libraryTitle {
     margin-left: 25px;
     font-size: 80px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(130, 69, 69);
+    color: rgb(177, 141, 59);
 }
 
 #addButton {
     padding: 20px;
-    background-color: rgba(30, 240, 170, 0.525);
+    background-color:rgb(72, 216, 154);
     font-size: large;
     font-family: 'Courier New', Courier, monospace;
     margin: 0 auto;
     width: 130px;
-    border-style: groove;
-    border-color: rgba(30, 240, 170, 0.7);
+    border-style: solid;
+    border-style: 2px;
+    border-color: rgba(25, 149, 108, 0.878);
     border-radius: 20px;
 }
 
@@ -47,7 +48,7 @@ body {
 #libraryContainer {
     width: 100%;
     height: 100vh;
-    background-image: repeating-linear-gradient(to top right, hsl(32, 17%, 60%), hsla(32, 79%, 87%, 0.248));
+    background-image: repeating-linear-gradient(to bottom right, hsl(60, 44%, 54%), hsla(32, 81%, 35%, 0.612));
     justify-content: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -80,15 +81,15 @@ body {
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    color: rgb(130, 69, 69);
+    color: rgb(68, 200, 149);
     width: 300px;
     height: 400px;
-    background-color: hsl(54, 34%, 63%);
+    background-color: hsl(241, 35%, 53%);
     margin-right: 50px;
     margin-left: 25px;
     border-style: solid;
     border-left-style: double;
-    border-color: hsl(36, 50%, 75%);
+    border-color: hsl(246, 36%, 40%);
     border-width: 5px;
     border-left-width: 10px;
     border-top-width: 10px;

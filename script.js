@@ -53,7 +53,7 @@ submitButton.addEventListener("click", submitBook);
 cancelButton.addEventListener("click", closeForm);
 addBookButton.addEventListener("click", openForm);
 addBookButton.addEventListener("mousedown", () => addBookButton.style.backgroundColor = "rgba(30, 240, 170, 0.8)");
-addBookButton.addEventListener("mouseup", () => addBookButton.style.backgroundColor = "rgba(30, 240, 170, 0.525)");
+addBookButton.addEventListener("mouseup", () => addBookButton.style.backgroundColor = "rgb(72, 216, 154)");
 console.log(document.getElementById("bookTitle").innerText);
 const updateLibrary = function(book) {
     if (myLibrary.length <= 8) {
