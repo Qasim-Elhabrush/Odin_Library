@@ -52,15 +52,15 @@ const submitBook = () => {
     if (newBook.title != "" && newBook.author != "" && newBook.pages != "") {
         newBook.addBookToLibrary();
     }
-    new NewForm();
+    
     
 
 }
 
-
-
 const openForm = function() {
+    new NewForm();
     form.style.display = "flex";
+
 }
 const closeForm = function() {
     form.style.display = "none";
